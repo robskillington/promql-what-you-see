@@ -3,11 +3,14 @@
   "version": "1.0.0",
   "description": "Interactive PromQL learning quiz with charts",
   "main": "index.js",
+  "homepage": "https://robskillington.github.io/promql-what-you-see",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": ["promql", "prometheus", "quiz", "monitoring"],
   "author": "",
@@ -21,6 +24,9 @@
     "chartjs-adapter-date-fns": "^3.0.0",
     "axios": "^1.6.0",
     "date-fns": "^2.30.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.0"
   },
   "browserslist": {
     "production": [

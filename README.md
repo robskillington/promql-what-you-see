@@ -1,6 +1,6 @@
 # PromQL Learning Quiz 📊
 
-> **🤖 Note:** This application was vibe-coded with AI assistance, with primarily just a few prompts to test this concept.
+> **🤖 Note:** This application was vibe-coded with AI assistance, with primarily just a few prompts to test this concept. Fork this and follow instructions to host on your own GitHub Pages.
 
 An interactive React application designed to help you master Prometheus Query Language (PromQL) through hands-on practice with real-time charts and progressive difficulty levels.
 
@@ -43,6 +43,31 @@ npm start
 ```
 
 4. Open your browser and navigate to `http://localhost:3000`
+
+## GitHub Pages Deployment 🚀
+
+This app is configured for easy deployment to GitHub Pages:
+
+### Automatic Deployment (Recommended)
+1. Fork this repository or push to your GitHub repository
+2. Go to your repository's **Settings** → **Pages**
+3. Set **Source** to "GitHub Actions"
+4. Push changes to the `main` branch - the app will automatically build and deploy
+
+### Manual Deployment
+1. Update the `homepage` field in `package.json` to match your GitHub Pages URL:
+   ```json
+   "homepage": "https://yourusername.github.io/promql-what-you-see"
+   ```
+2. Install dependencies: `npm install`
+3. Deploy: `npm run deploy`
+
+### GitHub Pages Setup
+- The app will be available at: `https://yourusername.github.io/promql-what-you-see`
+- GitHub Actions will automatically deploy when you push to `main`
+- The build files are automatically generated and deployed to the `gh-pages` branch
+
+**Note**: The app makes API calls to `https://prometheus.demo.prometheus.io` which allows cross-origin requests, so it works perfectly on GitHub Pages without additional CORS configuration.
 
 ## How to Use 📚
 
