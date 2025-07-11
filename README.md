@@ -1,5 +1,7 @@
 # PromQL Learning Quiz 📊
 
+> **🤖 Note:** This application was vibe-coded with AI assistance, with primarily just a few prompts to test this concept.
+
 An interactive React application designed to help you master Prometheus Query Language (PromQL) through hands-on practice with real-time charts and progressive difficulty levels.
 
 ## Features ✨
