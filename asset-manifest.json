@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/promql-what-you-see/static/css/main.b8cf879e.css",
+    "main.js": "/promql-what-you-see/static/js/main.11d9d4ac.js",
+    "index.html": "/promql-what-you-see/index.html",
+    "main.b8cf879e.css.map": "/promql-what-you-see/static/css/main.b8cf879e.css.map",
+    "main.11d9d4ac.js.map": "/promql-what-you-see/static/js/main.11d9d4ac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b8cf879e.css",
+    "static/js/main.11d9d4ac.js"
+  ]
+}
